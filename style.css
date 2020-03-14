@@ -1,10 +1,10 @@
-judulga {
+judulga{
   position: relative;
   margin-bottom: 45px;
   font-family: 'Oswald', sans-serif;
-  font-size: 25px;
+  font-size: 18px;
   text-transform: uppercase;
-  color: #424242;
+  color: #620000;
 }
 
 .gallery-wrapacor {
@@ -21,27 +21,30 @@ judulga {
   background-size: cover;
   background-repeat: none;
   transition: flex 0.8s ease;
-}
-.itemacor:hover {
-  flex: 6;
-}
-
-.itemacor-1 {
-  background-image: url("https://1.bp.blogspot.com/--WWJWrXzVkI/XmzdOVN5EAI/AAAAAAAAzTc/nsQrshgGPJsrNoEwzHLq3WllmdE4k8B1QCLcBGAsYHQ/s1600/marmer%2B1.jpg");
+  
+  &:hover{
+    flex: 6;
+  }
 }
 
-.itemacor-2 {
-  background-image: url("https://1.bp.blogspot.com/-2Dc6gd6WZ8g/XmzdOl5dAqI/AAAAAAAAzTk/ljj21Qh2WwQNr-yVUxQiWUkIBV5mexk3wCLcBGAsYHQ/s1600/marmer%2B2.jpg");
+.itemacor-1 { 
+  background-image: url('https://1.bp.blogspot.com/--WWJWrXzVkI/XmzdOVN5EAI/AAAAAAAAzTc/nsQrshgGPJsrNoEwzHLq3WllmdE4k8B1QCLcBGAsYHQ/s1600/marmer%2B1.jpg');
 }
 
-.itemacor-3 {
-  background-image: url("https://1.bp.blogspot.com/-VO2U3eMBMGo/XmzdOoBmUTI/AAAAAAAAzTg/5eBp_M6SmooK0pmZm49_K0ZpxuvsmQvqgCLcBGAsYHQ/s1600/marmer%2B3.jpg");
+.itemacor-2 { 
+  background-image: url('https://1.bp.blogspot.com/-2Dc6gd6WZ8g/XmzdOl5dAqI/AAAAAAAAzTk/ljj21Qh2WwQNr-yVUxQiWUkIBV5mexk3wCLcBGAsYHQ/s1600/marmer%2B2.jpg');
 }
 
-.itemacor-4 {
-  background-image: url("https://1.bp.blogspot.com/-zb50G_YJ_5I/XmzdPUj5jAI/AAAAAAAAzTo/-x9vjT56gik9zH_46c0tRBMvT3VVjQ_NgCLcBGAsYHQ/s1600/marmer%2B4.jpg");
+.itemacor-3 { 
+  background-image: url('https://1.bp.blogspot.com/-VO2U3eMBMGo/XmzdOoBmUTI/AAAAAAAAzTg/5eBp_M6SmooK0pmZm49_K0ZpxuvsmQvqgCLcBGAsYHQ/s1600/marmer%2B3.jpg');
 }
 
-.itemacor-5 {
-  background-image: url("https://1.bp.blogspot.com/-qy-vY2gOCFY/XmzdQEsrH2I/AAAAAAAAzTs/OanHnCwDS18sIe1JhCuOtrEeIXbJ3wScQCLcBGAsYHQ/s1600/marmer%2B5.jpg");
+.itemacor-4 { 
+  background-image: url('https://1.bp.blogspot.com/-zb50G_YJ_5I/XmzdPUj5jAI/AAAAAAAAzTo/-x9vjT56gik9zH_46c0tRBMvT3VVjQ_NgCLcBGAsYHQ/s1600/marmer%2B4.jpg');
 }
+
+.itemacor-5 { 
+  background-image: url('https://1.bp.blogspot.com/-qy-vY2gOCFY/XmzdQEsrH2I/AAAAAAAAzTs/OanHnCwDS18sIe1JhCuOtrEeIXbJ3wScQCLcBGAsYHQ/s1600/marmer%2B5.jpg');
+}
+
+ 
