@@ -1,0 +1,58 @@
+.container {
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+judulga {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #424242;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+.item:hover {
+  flex: 6;
+}
+
+.item-1 {
+  background-image: url("https://1.bp.blogspot.com/--WWJWrXzVkI/XmzdOVN5EAI/AAAAAAAAzTc/nsQrshgGPJsrNoEwzHLq3WllmdE4k8B1QCLcBGAsYHQ/s1600/marmer%2B1.jpg");
+}
+
+.item-2 {
+  background-image: url("https://1.bp.blogspot.com/-2Dc6gd6WZ8g/XmzdOl5dAqI/AAAAAAAAzTk/ljj21Qh2WwQNr-yVUxQiWUkIBV5mexk3wCLcBGAsYHQ/s1600/marmer%2B2.jpg");
+}
+
+.item-3 {
+  background-image: url("https://1.bp.blogspot.com/-VO2U3eMBMGo/XmzdOoBmUTI/AAAAAAAAzTg/5eBp_M6SmooK0pmZm49_K0ZpxuvsmQvqgCLcBGAsYHQ/s1600/marmer%2B3.jpg");
+}
+
+.item-4 {
+  background-image: url("https://1.bp.blogspot.com/-zb50G_YJ_5I/XmzdPUj5jAI/AAAAAAAAzTo/-x9vjT56gik9zH_46c0tRBMvT3VVjQ_NgCLcBGAsYHQ/s1600/marmer%2B4.jpg");
+}
+
+.item-5 {
+  background-image: url("https://1.bp.blogspot.com/-qy-vY2gOCFY/XmzdQEsrH2I/AAAAAAAAzTs/OanHnCwDS18sIe1JhCuOtrEeIXbJ3wScQCLcBGAsYHQ/s1600/marmer%2B5.jpg");
+}
+
+img {
+  display: block;
+  width: 32px;
+}
